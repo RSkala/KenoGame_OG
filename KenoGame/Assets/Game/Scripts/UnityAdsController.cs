@@ -56,17 +56,21 @@ public class UnityAdsController : MonoBehaviour {
 	}
 
     public bool IsVideoAdReady() {
-        return Advertisement.IsReady(); // TODO: USE PLACEMENT ID HERE
+        //return Advertisement.IsReady(); // TODO: USE PLACEMENT ID HERE
+        return false; // FIXING BUILD ERROR
     }
 
     public void ShowRewardedVideo() {
         Debug.Log("UnityAdsController.ShowRewardedVideo\n");
         //Advertisement.Show();
 
+/*  FIXING BUILD ERROR
         ShowOptions showOptions = new ShowOptions();
         showOptions.resultCallback = HandleShowResult;
 
         Advertisement.Show(showOptions); // TODO: USE PLACEMENT ID HERE
+*/
+
     }
 
     void HandleShowResult(ShowResult showResult) {
