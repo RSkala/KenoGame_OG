@@ -44,7 +44,7 @@ public class UnityAdsController : MonoBehaviour {
     void Awake() {
         instance = this;
         Advertisement.debugMode = true;
-        Advertisement.Initialize(GetUnityGameId());
+        //Advertisement.Initialize(GetUnityGameId()); // Temp fix for runtime error
     }
 
     void Start() {
