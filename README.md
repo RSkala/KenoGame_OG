@@ -4,7 +4,8 @@ Keno Game built with Unity UI
 
 <img src="./Screenshots/keno-game-screenshot-01.png" width=250/>
 
-This is a VERY early prototype and proof of concept, but you can play it [here](https://rskala.itch.io/keno?secret=QaCAi6HpFPCFKl7rWrEj2NSc)!
+This is a VERY early prototype and proof of concept, but you can play it [here](https://rskala.itch.io/keno?secret=QaCAi6HpFPCFKl7rWrEj2NSc)! <br>
+It works on desktop web browsers and mobile!
 
 #
 
